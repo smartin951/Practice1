@@ -1,0 +1,23 @@
+*{ 
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body .border {
+    outline-style: double;
+    background-color: #f3e5f4;
+}
+section, article {
+    height: 250px;
+}
+aside {
+    height: 510px;
+}
+.border {
+    border: 3px solid #c8a5ca;
+    margin: 10px;
+    background-color: white;
+}
+.left {float: left; width: 60%;}
+.right {float: right; width:40%}
+.clear {clear: both;}
